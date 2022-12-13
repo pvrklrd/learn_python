@@ -1,0 +1,1 @@
+print("Length of the name you have input is : "+ str(len(input("Enter a name to get it's length : "))))
