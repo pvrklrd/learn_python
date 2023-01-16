@@ -5,8 +5,28 @@
             "server": "localhost",
             "port": 5433,
             "driver": "PostgreSQL",
-            "name": "postgres",
+            "name": "movies@postgres",
             "database": "movies",
+            "username": "postgres",
+            "password": "VGuru1008"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "northwind@postgres",
+            "database": "northwind",
+            "username": "postgres",
+            "password": "VGuru1008"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "DataWarehouseX",
+            "database": "DataWarehouseX",
             "username": "postgres",
             "password": "VGuru1008"
         }

@@ -28,4 +28,4 @@ if(input("\n\tWhich way you wanna go? Type 'Left' or 'Right' : \t").lower() == '
     else:
         print(f"\n\tYou took a wrong turn 👺 and start from the scratch now. Game over...!!! 👾\n")
 else:
-    print(f"\n\tThat's a 'Death Whole' 🥶 ☠️ and you reached the Heaven..! Game over...!!! 👾\n")
+    print(f"\n\tThat's a 'Death Whole' 🥶 ☠️  and you reached the Heaven..! Game over...!!! 👾\n")
