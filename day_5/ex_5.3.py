@@ -6,6 +6,7 @@ def clear_the_console_screen():
         os.system('clear')
 
 clear_the_console_screen()
+
 sum = 0
 for i in range(2,101,2):
     sum += i

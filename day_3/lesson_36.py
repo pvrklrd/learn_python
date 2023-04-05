@@ -1,3 +1,7 @@
+import os
+
+os.system('cls')
+
 """
 if height is greater than 120cm then can ride and buy ticket. 
 ticket costs $7 for children below or at 18. ticket cost is $12 if the age is grater tha 18. free ticket for age between a5 and 55.

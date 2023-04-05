@@ -4,6 +4,16 @@ ticket costs $7 for children below or at 18. ticket cost is $12 if the age is gr
 finally, children below 120cm height are not allowed. 
 Add addition $3 whoever needs a photograph
 """
+import os
+
+def clear_the_console_screen():
+    if(os.name == 'nt'):
+        os.system('cls')
+    else:
+        os.system('clear')
+
+clear_the_console_screen()
+
 age = int(input("\n\n\tEnter your age : "))
 name = input("\tYour name please : ")
 height = int(input("\tWhat's your height in centimeter? : "))
